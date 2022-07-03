@@ -1,0 +1,26 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.branding {
+    filter: invert(36%) sepia(92%) saturate(391%) hue-rotate(100deg) brightness(95%) contrast(88%);
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar .navbar-nav a {
+    color: #198754;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #198754;
+    font-weight: bold;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    font-weight: bold;
+}
